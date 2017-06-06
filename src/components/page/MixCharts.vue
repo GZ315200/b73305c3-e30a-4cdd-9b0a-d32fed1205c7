@@ -5,14 +5,12 @@
                 <el-breadcrumb-item><i class="el-icon-date"></i> 图表</el-breadcrumb-item>
                 <el-breadcrumb-item>混合图表</el-breadcrumb-item>
             </el-breadcrumb>
-        </div>
-        <div class="plugins-tips">
-            vue-echarts-v3：基于vue2和eCharts.js3的图表组件。
-            访问地址：<a href="https://github.com/xlsdg/vue-echarts-v3" target="_blank">vue-echarts-v3</a>
-        </div>
+        </div> 
+
         <div class="mix-echarts">
             <IEcharts :option="mix" ></IEcharts>
         </div>
+
     </div>
 </template>
 

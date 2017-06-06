@@ -19,7 +19,7 @@
     export default {
         data() {
             return {
-                name: 'linxin'
+                name: 'mazean'
             }
         },
         computed:{
@@ -43,7 +43,7 @@
         position: relative;
         box-sizing: border-box;
         width: 100%;
-        height: 70px;
+        height: 60px;
         font-size: 22px;
         line-height: 70px;
         color: #fff;
@@ -51,6 +51,7 @@
     .header .logo{
         float: left;
         width:250px;
+        line-height:60px;
         text-align: center;
     }
     .user-info {
@@ -69,6 +70,7 @@
     }
     .user-info .user-logo{
         position: absolute;
+        margin-top:-5px;
         left:0;
         top:15px;
         width:40px;
